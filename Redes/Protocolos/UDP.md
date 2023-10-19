@@ -1,0 +1,5 @@
+- Ao contrário das ligações [[TCP]] as ligações *UDP não têm estado(stateless)*,  
+- Não confirmam a ligação e apenas  "esperam" que os pacotes cheguem inteiros. Assim são melhores para as conexões que *valorizam mais a velocidade que a integridade*.
+- Normalmente conexões UDP não respondem, logo o não sabemos se o porto está aberto ou filtrado pela [[firewall]].
+- Se o porto estiver fechado o servidor responde com  um [[Comandos terminal#PING | PING]], contendo a mensagem que o porto está fechado. 
+- 
