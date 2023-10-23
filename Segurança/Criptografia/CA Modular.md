@@ -36,3 +36,7 @@ $$ x \equiv 1 \ (mod \ 2) \ \& \  x \equiv 2 \ (mod \ 3) \implies x \equiv 5 \ (
 Fazendo umas contas quais queres com os 2 teoremas chegamos ao resultado: $x^{r(p-1)+1} \equiv 1 \ (mod \ p)$ onde r pode ser um número qualquer e $p$ e $x$ são [[#Co-primos]].
 Esta parte eu não percebi,  mas chegamos ao resultado, onde $M$ é a mensagem, $C$ é o criptograma e publicamos o produto de $pq$ e o $e$.
 $$M^e \ (mod \ pq)=C $$
+Para quem tem a chave privada (p e q) pode descobrir $M$ com 
+$$C^d \ (mod \ pq)=M$$
+mas d é desconhecido, no entanto pode ser descoberto através de:
+$$ ed= 1 mod(mmc(p-1,q-1))$$

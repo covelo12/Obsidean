@@ -131,4 +131,10 @@ Organizadas em:
 - Nome Colunas
 - Linhas
 - Colunas
-4961
+# Broken Authentication
+Cookie de autenticação- String que deixa o utilizador estar no servidor sem a continua autenticação, para assim não precisar de uma autenticação por click.
+- Uma técnica comum é  os ataques por dicionário, tentar as passwords mais conhecidas 
+## Web-request
+- A partir do domínio  vai se buscar o IP
+- A partir do IP liga-se ao servidor
+- Normalmente [[HTTPS]]

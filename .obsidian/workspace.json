@@ -4,40 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "cd1704e82be9406d",
+        "id": "711ab34541895370",
         "type": "tabs",
         "children": [
           {
-            "id": "e3383f2f2b52162d",
+            "id": "9517e578845164ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Segurança/Modelação de Ameaças.md",
-                "mode": "source",
+                "file": "Terminal/Comandos terminal.md",
+                "mode": "preview",
                 "source": false
               }
-            },
-            "group": "50b744ff28e68cc4"
-          }
-        ]
-      },
-      {
-        "id": "d553ef03fb347192",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fe05bbec140f6acd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Segurança/Modelação de Ameaças.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "50b744ff28e68cc4"
+            }
           }
         ]
       }
@@ -68,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nmap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Segurança/Modelação de Ameaças.md",
+                "file": "Terminal/Comandos terminal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Segurança/Modelação de Ameaças.md",
+                "file": "Terminal/Comandos terminal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Segurança/Modelação de Ameaças.md"
+                "file": "Terminal/Comandos terminal.md"
               }
             }
           },
@@ -181,24 +161,27 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "e3383f2f2b52162d",
+  "active": "9517e578845164ed",
   "lastOpenFiles": [
-    "Terminal/Comandos terminal.md",
-    "Segurança/Modelação de Ameaças.md",
     "Segurança/Vulnerabilidaades/AEV.md",
+    "Redes/Protocolos/HTTPS.md",
+    "Segurança/Criptografia/CA Modular.md",
+    "Redes/Protocolos/FTB.md",
+    "Redes/Protocolos/TCP.md",
+    "Terminal/Comandos terminal.md",
+    "Redes/Redes - Conceitos base.md",
+    "Redes/firewall.md",
+    "Segurança/Criptografia/CA.md",
     "Siglas.md",
+    "Segurança/Modelação de Ameaças.md",
     "Untitled.md",
     "Untitled 1.md",
-    "Redes/Redes - Conceitos base.md",
-    "Redes/Protocolos/HTTPS.md",
     "AEVDEFS.md",
-    "Redes/Protocolos/TCP.md",
     "Base de dados/Base de Dados - Conceitos base.md",
     "Segurança/Software Rebusto.md",
     "Segurança/Vulnerabilidaades/Noções Hack the box.md",
     "Segurança/Vulnerabilidaades/CWE-CVE.md",
     "Base de dados",
-    "Redes/Protocolos/FTB.md",
     "Redes/Conceitos base",
     "Redes/Protocolos/SMB.md",
     "Redes/Protocolos",
@@ -220,10 +203,7 @@
     "Syn-scan.md",
     "Segurança/Vulnerabilidaades/Scans",
     "Terminal/Instalação de software.md",
-    "Segurança/Criptografia/CA.md",
     "Redes/Protocolos/UDP.md",
-    "Redes/firewall.md",
-    "Segurança/Criptografia/CA Modular.md",
     "Segurança/Vulnerabilidaades",
     "Terminal",
     "Linguagens programação",
