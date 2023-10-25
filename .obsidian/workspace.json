@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/Comandos terminal.md",
-                "mode": "preview",
+                "file": "Segurança/Criptografia/Respostas teste Ca2021.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/Comandos terminal.md",
+                "file": "Segurança/Criptografia/Respostas teste Ca2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/Comandos terminal.md",
+                "file": "Segurança/Criptografia/Respostas teste Ca2021.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/Comandos terminal.md"
+                "file": "Segurança/Criptografia/Respostas teste Ca2021.md"
               }
             }
           },
@@ -163,17 +163,18 @@
   },
   "active": "9517e578845164ed",
   "lastOpenFiles": [
+    "Segurança/Criptografia/CA.md",
+    "Segurança/Criptografia/CA Modular.md",
+    "Segurança/Criptografia/Respostas teste Ca2021.md",
+    "Segurança/Modelação de Ameaças.md",
+    "Terminal/Comandos terminal.md",
     "Segurança/Vulnerabilidaades/AEV.md",
     "Redes/Protocolos/HTTPS.md",
-    "Segurança/Criptografia/CA Modular.md",
     "Redes/Protocolos/FTB.md",
     "Redes/Protocolos/TCP.md",
-    "Terminal/Comandos terminal.md",
     "Redes/Redes - Conceitos base.md",
     "Redes/firewall.md",
-    "Segurança/Criptografia/CA.md",
     "Siglas.md",
-    "Segurança/Modelação de Ameaças.md",
     "Untitled.md",
     "Untitled 1.md",
     "AEVDEFS.md",
@@ -203,7 +204,6 @@
     "Syn-scan.md",
     "Segurança/Vulnerabilidaades/Scans",
     "Terminal/Instalação de software.md",
-    "Redes/Protocolos/UDP.md",
     "Segurança/Vulnerabilidaades",
     "Terminal",
     "Linguagens programação",

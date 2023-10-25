@@ -1,11 +1,23 @@
 
 # Classic Crypto
 
+
+
 ## Confusão vs Difusão
 ### Confusão
-é uma técnica criptográfica concebida para aumentar a imprecisão do texto cifrado. Em palavras simples, a técnica garante que o texto cifrado não dá pistas sobre o texto simples.
+Em palavras simples, a técnica garante que o texto cifrado não dá pistas sobre o texto simples. *Esconde padrões* entre chave e texto cifrado.
 ### Difusão 
-É uma técnica criptográfica inventada para aumentar a redundância do texto simples para obscurecer a estrutura estatística do texto simples para evitar tentativas de deduzir a chave. Na difusão, a estrutura estatística do texto simples pode desaparecer nas estatísticas de longo alcance do texto cifrado e a relação entre elas é complexa, de modo que ninguém pode deduzir a chave original.
+Isso significa espalhar as propriedades estatísticas do texto original de forma mais uniforme possível no texto cifrado. A ideia é que qualquer alteração mínima no texto original resulte em *grandes mudanças no texto cifrado*.
+
+
+## Substituição
+- Mono-alfabeticas: substitui-se uma letra por uma letra.
+- Poli-alfabeticas: substitui-se uma letra por uma letra, mas não sempre a mesma.
+- Homophonic: Substitui-se uma letra por muitas.
+
+
+
+
 
 
 
