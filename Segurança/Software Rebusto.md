@@ -1,4 +1,4 @@
-==Quality== represents the degree to which software products meet their stated ***requirements***
+==Quality==  represents the degree to which software products meet their stated ***requirements***
 test vai falar da CIA 
 
 ## Security Requirements

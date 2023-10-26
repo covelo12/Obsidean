@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "711ab34541895370",
+        "id": "eaf43759c6458f0b",
         "type": "tabs",
         "children": [
           {
-            "id": "9517e578845164ed",
+            "id": "4909a1927cb9a715",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Segurança/Criptografia/Respostas teste Ca2021.md",
+                "file": "Segurança/Criptografia/CA.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Segurança/Criptografia/Respostas teste Ca2021.md",
+                "file": "Segurança/Criptografia/CA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Segurança/Criptografia/Respostas teste Ca2021.md",
+                "file": "Segurança/Criptografia/CA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Segurança/Criptografia/Respostas teste Ca2021.md"
+                "file": "Segurança/Criptografia/CA.md"
               }
             }
           },
@@ -161,13 +161,16 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "9517e578845164ed",
+  "active": "4909a1927cb9a715",
   "lastOpenFiles": [
-    "Segurança/Criptografia/CA.md",
     "Segurança/Criptografia/CA Modular.md",
+    "Segurança/Criptografia/CA.md",
     "Segurança/Criptografia/Respostas teste Ca2021.md",
     "Segurança/Modelação de Ameaças.md",
+    "Segurança/Software Rebusto.md",
     "Terminal/Comandos terminal.md",
+    "Segurança/AAS.md",
+    "Linguagens programação/C++.md",
     "Segurança/Vulnerabilidaades/AEV.md",
     "Redes/Protocolos/HTTPS.md",
     "Redes/Protocolos/FTB.md",
@@ -179,7 +182,6 @@
     "Untitled 1.md",
     "AEVDEFS.md",
     "Base de dados/Base de Dados - Conceitos base.md",
-    "Segurança/Software Rebusto.md",
     "Segurança/Vulnerabilidaades/Noções Hack the box.md",
     "Segurança/Vulnerabilidaades/CWE-CVE.md",
     "Base de dados",
@@ -201,9 +203,7 @@
     "Terminal/nmap/Syn-Scan.md",
     "Terminal/nmap/Nmap.md",
     "Terminal/nmap",
-    "Syn-scan.md",
     "Segurança/Vulnerabilidaades/Scans",
-    "Terminal/Instalação de software.md",
     "Segurança/Vulnerabilidaades",
     "Terminal",
     "Linguagens programação",

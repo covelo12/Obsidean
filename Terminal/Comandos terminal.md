@@ -1,4 +1,4 @@
-# Updates e Upgrade
+~# Updates e Upgrade
  `sudo apt-get update`
  `sudo apt-get upgrade`
 

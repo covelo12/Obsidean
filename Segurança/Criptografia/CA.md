@@ -1,6 +1,14 @@
 
 # Classic Crypto
-
+## Segurança do ponto de vista teórico vs Computacional
+### Teórico 
+- Todas as mensagens são possíveis
+- Todos os criptogramas são possíveis
+- Todas as keys são possíveis
+### Computacional
+- Número de keys finito,  é ainda menor que o número de mensagens
+- Segurança depende do poder computacional de quem quer quebrar a cifra
+- Demonstração da segurança pode ser dada através da comparação com problemas
 
 
 ## Confusão vs Difusão
@@ -9,14 +17,30 @@ Em palavras simples, a técnica garante que o texto cifrado não dá pistas sobr
 ### Difusão 
 Isso significa espalhar as propriedades estatísticas do texto original de forma mais uniforme possível no texto cifrado. A ideia é que qualquer alteração mínima no texto original resulte em *grandes mudanças no texto cifrado*.
 
-
+## Transposição
+- Texto original embaralhado
 ## Substituição
-- Mono-alfabeticas: substitui-se uma letra por uma letra.
-- Poli-alfabeticas: substitui-se uma letra por uma letra, mas não sempre a mesma.
+### Mono-alfabeticas
+- substitui-se uma letra por uma letra.
+- Não escondem padrões
+- Análise estatística facilmente quebra. 
+### Poli-alfabeticas
+- substitui-se uma letra por uma letra, mas não sempre a mesma.
+- Assim que o período é sabido podemos criptoanaliza-se como se fossem *N* monoalfabéticas
 - Homophonic: Substitui-se uma letra por muitas.
 
 
-
+## Critérios de Shannon 
+Critérios utilizados para saber se um cifra é boa ou não 
+- A quantidade de secrecidade necessária deve determinar a quantidade de trabalho a encriptar e decriptar
+- Complexidade da seleção da chave
+- Simplicidade de implementação
+- Propagação de erro não deve acontecer 
+- O tamanho da cifra não deve ser muito maior que o tamanho do texto 
+## A cifra deve ser resistente 
+- A saberem o algoritmo
+- Terem amostras  de muitos criptogramas com a mesma chave 
+- Saberem parte do texto original 
 
 
 
@@ -97,25 +121,27 @@ Quando há um shift na keystream e o plaintext não se perde toda
 - (IV) Initialization Vector - Valor que pode ou não ser secreto para a encriptação do primeiro bloco
 
 ### OFB
-A mensagem dividida em N bits
-Vai  criar um loop
-mix the keystream with the plaintext to get the ciphertext
-Encripta-se o IV com a key, assim podemos usar a mesma key várias vezes e temos apenas de mudar o IV nas mensagens
+- Cifra de blocos
+- IV inicial aleatório
+- Encriptar o IV com a key → Plaintext XOR E(IV) → *Últimos N bits de E(IV) vão para o inicio do IV para o próximo bloco*
+- Assim como é preciso do ultimo bloco encriptado para calcular o iv do proximo bloco, *não há parallel processing*  
 ![[Pasted image 20230922154615.png]]
 
 #### Padding
 - Para alinhar a mensagem para poder ser encriptada pelo CBC
 - Calcula-se  o número de bytes do padding e depois,  nos bytes de padding põe-se esse valor para identificar o padding. No entanto se tudo tiver alinhado tem de se mandar um bloco completo de padding.
 
-### (CFB) Ciphertext Generator
+### (CFB) Ciphertext Feedback
 - Pode [[CA#Self Syncronation]]
 - A decriptação como é obvio começa sempre do início também, como em todas
 - Para decriptação basta pegar em uma parte do  criptograma e inserir no iv e decriptar até ao final
 - Não há uniform random access
 
+
 ![[Pasted image 20230929091528.png]]
 ### (CTR) Counter
-- O counter é o estado  do modo 
+- Igual ao OFB
+- O estado do IV é baseado num counter permitindo que  se possa calcular facilmente o estado do IV para cada um dos blocos.
 - Muito prático, pois tens Uniform Random Access logo podes ter computação paralela e podes ter pré-processamento
 
 ### DESX
@@ -126,15 +152,16 @@ Encripta-se o IV com a key, assim podemos usar a mesma key várias vezes e temos
 #### Colisões
 - Quando dois inputs geram o mesmo output
 - Quanto menos colisões melhor
-
-## Hash vs Digest????
-#### Hash 
-- Colisões são fáceis de encontrar
-- Não faz mal  encontrar a função inversa
 #### Digest 
 - **Collision resistance** - Colisões não conseguem ser encontradas( eg. MD5 é fraca com colision resistance mas algumas utilizações não faz mal se for por exemplo com password pois precisas de saber uma password em primeiro lugar, não podemos usar para assinar )
 - **Preimage resistance** - Não se pode prever a função inversa, logo a partir do output não se encontra o input.
 - **Second Preimage resistance** - ==A partir de um  texto== impossível encontrar um outro com o mesmo digest
+
+## Rainbow Tables
+- Consiste na computação de hashes para encontrar colisões
+- Para um input é calculado o seu hash, esse hash é passado a uma função que determina o próximo input da função de hashing
+- A função que determina o input é provável de gerar colisões
+
 
 ## Merkle-Damgård construction
 	- Comprimir iterativamente até chegar ao tamanho ideal
@@ -177,9 +204,5 @@ Encripta-se o IV com a key, assim podemos usar a mesma key várias vezes e temos
 	-Encriptar o texto e o MAC 
 	-Não se  consegue ver o MAC  então é complicado de chetar
 
-# Aritmética modular
-*SAIU*`Temos uma gama finita bem defenida de valores, que facilmente permite guardar informacao. E pode ser implementada eficientemente em todos os computadores. E tem muitas aplicações criptográficas. `
-## Notation
-![[Pasted image 20231006092436.png]]
-Scramble information in a way that is very difficult to unscramble without the key.
+
 

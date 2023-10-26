@@ -25,3 +25,9 @@ ser muito difícil computar $r^{ab} mod p$
 
 7- 
  Os dois concordam em um elliptic curve e num ponto nela P. Alice decide $\alpha$ e  faz $\alpha P$  e envia a Bob, bob decide $\beta$ e faz $\beta P$ e envia a Alice, os dois conseguem então chegar ao resultado $\alpha \beta P$
+
+8-
+$C = M^e (mod pq)$ e $M= C^d (mod pq)$  para descobri o d pode se fazer $ed=1 mod( \lambda (pq))$ e $\lambda(pq)$ é muito difícil de se calcular, assim se souberes p e q podes calcular $\lambda (pq)$ com $mmc(p-q.q-1)$ que é facilmente calculável
+
+9- 
+Para assinar uma mensagem o  remetente encripta o MAC da mensagem a enviar. Assim quem receber a mensagem e o MAC pode desencriptar o MAC e comparar com o MAC calculado da mensagem original.
