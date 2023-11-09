@@ -204,5 +204,55 @@ Quando há um shift na keystream e o plaintext não se perde toda
 	-Encriptar o texto e o MAC 
 	-Não se  consegue ver o MAC  então é complicado de chetar
 
+# Gerenciamento de chaves assimétricas
+## Geração de chaves
+*Bons geradores aleatórios*
+Os geradores de chaves devem ser o mais aleatórios possível
+
+*Chaves publicas eficientes*
+- Poucos bits, normalmente $2^{k+1}$ 
+- Assim as  operações são rápidas e eficientes
+- Não há problemas de segurança
+
+*Auto-geração de chaves publicas*
+- Melhora a privacidade
+- Não é necessário caso não se envolva assinaturas
+
+## Exploração de chaves
+### Uso correto de chaves
+*A chave representa uma pessoa*
+- Assim tem de ser segura
+- E um backup físico tem de existir
+*O acesso à chave tem de ser controlado*
+- Com uma password ou pin
+- Aplicações que usam a chave como adobe reader tem de ser corretas com o seu uso
+### Confinamento de chaves
+*A chave tem de estar contida em um domínio seguro do sistema*
+
+## Chaves  publicas
+
+**Distribuição para quem vai enviar informação confidencial**
+- Manual 
+- Usando Diffle-Hellman
+- Usando certificados digitais
+**Distribuição para quem vai receber a informação confidencial**
+- Usando certificados digitais
+**Distribuição de chaves publicas**
+- Através de caminhos de confiança
+- Se *A* confia em **B** e **B** confia em <span style="color:#ffc000">S</span> então *A* confia em <span style="color:#ffc000">S</span>
+- Isto gera as hierarquias de certificação
+- Pode-se fazer mandar uma assinatura do documento e ao mesmo tempo uma certificação em que a chave publica que podes usar para verificar a assinatura é minha.
+
+### Certificados digitais
+- Certificados produzidos por [[#Entidade certificadora]]
+- ligam uma entidade/pessoa a uma chave
+- São documentos públicos
+- São seguros criptograficamente
+#### Usados para distribuir chaves de maneira segura
+- O receptor de um certificado pode autenica-lo e valida-lo
+- Se quem assinar o certificado é confiado e a assinatura do certificado está correta então o receptor pode confiar na chave publica que está no certificado
+
+#### Entidade certificadora
+
 
 

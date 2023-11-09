@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Segurança/Criptografia/CA.md",
-                "mode": "source",
+                "file": "Terminal/Comandos terminal.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Segurança/Criptografia/CA.md",
+                "file": "Terminal/Comandos terminal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Segurança/Criptografia/CA.md",
+                "file": "Terminal/Comandos terminal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Segurança/Criptografia/CA.md"
+                "file": "Terminal/Comandos terminal.md"
               }
             }
           },
@@ -163,13 +163,14 @@
   },
   "active": "4909a1927cb9a715",
   "lastOpenFiles": [
+    "Segurança/AAS.md",
+    "Pasted image 20231102152403.png",
+    "Segurança/Criptografia/Respostas teste Ca2021.md",
     "Segurança/Criptografia/CA Modular.md",
     "Segurança/Criptografia/CA.md",
-    "Segurança/Criptografia/Respostas teste Ca2021.md",
     "Segurança/Modelação de Ameaças.md",
     "Segurança/Software Rebusto.md",
     "Terminal/Comandos terminal.md",
-    "Segurança/AAS.md",
     "Linguagens programação/C++.md",
     "Segurança/Vulnerabilidaades/AEV.md",
     "Redes/Protocolos/HTTPS.md",
@@ -198,10 +199,8 @@
     "imagens/Pasted image 20230922141503.png",
     "imagens/Pasted image 20230922141454.png",
     "imagens/Pasted image 20230922134927.png",
-    "imagens/Pasted image 20230922133651.png",
     "Segurança/Vulnerabilidaades/AEV Machines enumeration.md",
     "Terminal/nmap/Syn-Scan.md",
-    "Terminal/nmap/Nmap.md",
     "Terminal/nmap",
     "Segurança/Vulnerabilidaades/Scans",
     "Segurança/Vulnerabilidaades",
