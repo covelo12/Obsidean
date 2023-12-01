@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "eaf43759c6458f0b",
+        "id": "fc195cd7e65da236",
         "type": "tabs",
         "children": [
           {
-            "id": "7a816a69fb74edbd",
+            "id": "050c80554dab1946",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/Comandos terminal.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "82f37a4c5df1738b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linguagens programação/Python.md",
+                "file": "Redes/Redes - Conceitos base.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguagens programação/Python.md",
+                "file": "Redes/Redes - Conceitos base.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguagens programação/Python.md",
+                "file": "Redes/Redes - Conceitos base.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagens programação/Python.md"
+                "file": "Redes/Redes - Conceitos base.md"
               }
             }
           },
@@ -174,14 +161,20 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "82f37a4c5df1738b",
+  "active": "050c80554dab1946",
   "lastOpenFiles": [
+    "AWS/Conceitos Base.md",
+    "Redes/Redes - Conceitos base.md",
+    "AWS/Comandos Terminal.md",
     "Terminal/Comandos terminal.md",
+    "imagens/Pasted image 20231121142850.png",
+    "Pasted image 20231102152403.png",
+    "Redes/Untitled.md",
     "Linguagens programação/Python.md",
+    "AWS",
     "Segurança/Criptografia/CA.md",
     "Segurança/OWASP ZAP.md",
     "Segurança/AAS.md",
-    "Pasted image 20231102152403.png",
     "Segurança/Criptografia/Respostas teste Ca2021.md",
     "Segurança/Criptografia/CA Modular.md",
     "Segurança/Modelação de Ameaças.md",
@@ -191,7 +184,6 @@
     "Redes/Protocolos/HTTPS.md",
     "Redes/Protocolos/FTB.md",
     "Redes/Protocolos/TCP.md",
-    "Redes/Redes - Conceitos base.md",
     "Redes/firewall.md",
     "Siglas.md",
     "Untitled 1.md",
@@ -203,7 +195,6 @@
     "Redes/Conceitos base",
     "Redes/Protocolos/SMB.md",
     "Redes/Protocolos",
-    "Segurança/Vulnerabilidaades/AEVDEFS.md",
     "imagens/Pasted image 20231018141605.png",
     "imagens/Pasted image 20231018122407.png",
     "imagens/Pasted image 20231006092436.png",
@@ -212,15 +203,11 @@
     "imagens/Pasted image 20230922150935.png",
     "imagens/Pasted image 20230922141503.png",
     "imagens/Pasted image 20230922141454.png",
-    "imagens/Pasted image 20230922134927.png",
-    "Segurança/Vulnerabilidaades/AEV Machines enumeration.md",
-    "Terminal/nmap/Syn-Scan.md",
     "Terminal/nmap",
     "Segurança/Vulnerabilidaades/Scans",
     "Segurança/Vulnerabilidaades",
     "Terminal",
     "Linguagens programação",
-    "WebDev",
-    "Segurança"
+    "WebDev"
   ]
 }

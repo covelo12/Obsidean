@@ -62,7 +62,7 @@ var InsertHeadingLink = class extends import_obsidian.Plugin {
         hotkeys: [
           {
             modifiers: ["Shift"],
-            key: "l"
+            key: "-"
           }
         ],
         editorCallback: (editor) => this.addHeadingLink(editor)
