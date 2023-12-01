@@ -1,4 +1,7 @@
-# Updates e Upgrade
+# Util
+## Keygen
+`ssh-keygen -t rsa -b 4096 -C "ricardocovelo11@ua.pt"`
+## Updates e Upgrade
  `sudo apt-get update`
  `sudo apt-get upgrade`
  `sudo snap install --classic code`
@@ -58,7 +61,7 @@ Para trocar chaves num canal inseguro
 -  `-sV` mais informações sobre a versão dos portos 
 - **Tipos** `-sT` para portos [[TCP]] 
 	- -`-sU` para portos [[UDP]], estes scans são lentos então é boa prática usar `--top-ports <number>`  enabled.  e.g. ( `--top-ports 20`,  vai apenas examinar  os 20 portos mais comuns)
-	- `-sS` usado para efetuar um [[Comandos terminal#Syn-scan | Syn Scans]] 
+	- `-sS` usado para efetuar um [[Terminal/Comandos terminal#Syn-scan| Syn Scans]] 
 	- `-sn` varredura de IP `- nmap -sn 192.168.0.1-254`, não dá scan a portos, apenas vê os IPs conectados à rede
 	- ##### Passar Firewall
 	- `-f` Fragmenta os packets fazendo que seja mais fácil escapar à Firewall
