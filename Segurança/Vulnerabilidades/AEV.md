@@ -1,6 +1,8 @@
+## Aulas
+```dataview
+list from "Segurança/Vulnerabilidades" WHERE Cadeira = "AEV" and tags="#Aula" sort file.cday
+```
 
-#### CVE VS CWE VS CVSS
-**CWE** é o tipo de vulnerabilidades enquanto o **CVE** é a aplicação do **CWE** a  um tipo de sistema,  podemos dar uma classificação a cada um destes problemas para definir as **CVE** prioritárias, essa classificação chama-se **CVSS**
 ### Vulnerability assessment 
 `Processo de analizar evaliar e rever entidades`
 `Identificar e categorizar problemas e lidar com elesassertadamente `

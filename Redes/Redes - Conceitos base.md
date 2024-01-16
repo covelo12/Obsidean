@@ -9,15 +9,12 @@ e.g. [[HTTPS]] ,[[FTB]],[[TCP]],[[SMB]],[[UDP]],
 
 ## VLANS
 	Virtual lan
-
 ### Portos
 #### Portos de acesso
 - Comunicam-se com os aparelhos de forma normal por tramas internet
 - Apenas ganham o ID da VLAN quando chegam ao switch
 
 #### Portos TRUNK
-
-
 ### 802.1Q
 	.1Q
 - Adiciona um campo de 4 bytes num pacote na rede, *0 equivale a sem  VLAN*  e o número *1 é associado à VLAN administradora* .

@@ -2,5 +2,6 @@
   "accentColor": "",
   "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [],
-  "baseFontSize": 21
+  "baseFontSize": 14,
+  "theme": "obsidian"
 }

@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "fc195cd7e65da236",
+        "id": "ddb8cee81e869135",
         "type": "tabs",
         "children": [
           {
-            "id": "050c80554dab1946",
+            "id": "72b76215e159126d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes/Redes - Conceitos base.md",
+                "file": "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d756f78969946897",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Segurança/Vulnerabilidades/Avaliação  (Assesment).md",
                 "mode": "source",
                 "source": false
               }
@@ -43,22 +55,7 @@
             }
           },
           {
-            "id": "06119184ca7548f7",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "nmap",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "ba4ce6fba69929a7",
+            "id": "3890f1a7ea9d4ebd",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +66,45 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "4ba8faf63f948938",
     "type": "split",
     "children": [
       {
-        "id": "8a3a3d88fbc22a8b",
+        "id": "7c8be2f0248978a6",
         "type": "tabs",
         "children": [
           {
-            "id": "a0ff4062e9e88045",
+            "id": "b7c20ccc5b38b893",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "cfb54bccf5abb83c",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md"
+              }
+            }
+          },
+          {
+            "id": "1c40d85f06450887",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes/Redes - Conceitos base.md",
+                "file": "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,103 +116,78 @@
             }
           },
           {
-            "id": "c9b85ab8f1be0dd8",
+            "id": "649b980517a737d6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes/Redes - Conceitos base.md",
+                "file": "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5970a6fe0ced9b10",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "910424de5390023b",
+            "id": "0d72a004fac0f13e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes/Redes - Conceitos base.md"
-              }
-            }
-          },
-          {
-            "id": "db6c577cc06f70b3",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
+                "file": "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "random-note:Open random note": false,
-      "publish:Publish changes...": false,
-      "zk-prefixer:Create new unique note": false,
-      "obisidian-note-linker:Note Linker": false
+      "canvas:Create new canvas": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "050c80554dab1946",
+  "active": "72b76215e159126d",
   "lastOpenFiles": [
-    "AWS/Conceitos Base.md",
-    "Redes/Redes - Conceitos base.md",
+    "Segurança/Vulnerabilidades/Avaliação  (Assesment).md",
+    "Segurança/Vulnerabilidades/Scope.md",
+    "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md",
+    "Segurança/Vulnerabilidades/Auditoria.md",
+    "Segurança/Vulnerabilidades/Penetration Test.md",
+    "Templates/Aula.md",
+    "Templates/Conceito.md",
+    "Segurança/Vulnerabilidades/AEV.md",
+    "Segurança/Vulnerabilidades/Vulnerabilidade.md",
+    "Segurança/Vulnerabilidades/Vulnerabilidades.md",
+    "Segurança/Vulnerabilidades/CIA.md",
+    "Untitled 1.md",
+    "Segurança/Vulnerabilidades/CWE-CVE.md",
+    "Segurança/Criptografia/Respostas teste Ca2021.md",
+    "Segurança/Criptografia/CA.md",
+    "Segurança/Criptografia/CA Modular.md",
+    "Segurança/AAS.md",
+    "Segurança/Modelação de Ameaças.md",
+    "Segurança/OWASP ZAP.md",
+    "Segurança/Software Rebusto.md",
+    "Teste ASFC.md",
+    "Segurança/Certificados.md",
+    "Siglas.md",
+    "Links.md",
+    "Templates",
     "AWS/Comandos Terminal.md",
-    "Terminal/Comandos terminal.md",
+    "AWS/AWS SAM.md",
     "imagens/Pasted image 20231121142850.png",
     "Pasted image 20231102152403.png",
-    "Redes/Untitled.md",
-    "Linguagens programação/Python.md",
     "AWS",
-    "Segurança/Criptografia/CA.md",
-    "Segurança/OWASP ZAP.md",
-    "Segurança/AAS.md",
-    "Segurança/Criptografia/Respostas teste Ca2021.md",
-    "Segurança/Criptografia/CA Modular.md",
-    "Segurança/Modelação de Ameaças.md",
-    "Segurança/Software Rebusto.md",
-    "Linguagens programação/C++.md",
-    "Segurança/Vulnerabilidaades/AEV.md",
-    "Redes/Protocolos/HTTPS.md",
-    "Redes/Protocolos/FTB.md",
-    "Redes/Protocolos/TCP.md",
-    "Redes/firewall.md",
-    "Siglas.md",
-    "Untitled 1.md",
-    "AEVDEFS.md",
-    "Base de dados/Base de Dados - Conceitos base.md",
-    "Segurança/Vulnerabilidaades/Noções Hack the box.md",
-    "Segurança/Vulnerabilidaades/CWE-CVE.md",
     "Base de dados",
     "Redes/Conceitos base",
-    "Redes/Protocolos/SMB.md",
     "Redes/Protocolos",
     "imagens/Pasted image 20231018141605.png",
     "imagens/Pasted image 20231018122407.png",
@@ -205,9 +199,8 @@
     "imagens/Pasted image 20230922141454.png",
     "Terminal/nmap",
     "Segurança/Vulnerabilidaades/Scans",
-    "Segurança/Vulnerabilidaades",
+    "Segurança/Vulnerabilidades",
     "Terminal",
-    "Linguagens programação",
-    "WebDev"
+    "Linguagens programação"
   ]
 }

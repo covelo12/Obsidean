@@ -7,6 +7,7 @@
 # S3 bucket
 	Simple storage service
 - Corre website estáticos 
+- Cada bucket tem de ter um nome único
 - Guarda e devolve qualquer tipo de dados 
 - Para guardar dados temos de ter um tipo de **contentor**.
 - Scripts do servidor têm de estar no S3 bucket com os dados
