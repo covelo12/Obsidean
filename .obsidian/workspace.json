@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d869b8b2399b31e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Segurança/Vulnerabilidades/ala.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "26219bf1db988864",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Novels.md",
+                "file": "AWS/Comandos Terminal.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +82,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Novels.md"
+                "file": "AWS/Comandos Terminal.md"
               }
             }
           },
@@ -105,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Novels.md",
+                "file": "AWS/Comandos Terminal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Novels.md",
+                "file": "AWS/Comandos Terminal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Novels.md"
+                "file": "AWS/Comandos Terminal.md"
               }
             }
           }
@@ -157,8 +144,17 @@
   },
   "active": "26219bf1db988864",
   "lastOpenFiles": [
-    "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md",
+    "AWS/AWS SAM.md",
+    "Linguagens programação/Python.md",
+    "Linguagens programação/C++.md",
+    "Segurança/Criptografia/CA Modular.md",
+    "Segurança/Criptografia/Respostas teste Ca2021.md",
+    "Segurança/Criptografia/CA.md",
+    "WebDev/CORS.md",
+    "Novels.md",
     "Segurança/Vulnerabilidades/ala.md",
+    "Segurança/Certificados.md",
+    "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md",
     "Templates/Aula.md",
     "Segurança/Vulnerabilidades/Reflected XSS.md",
     "Segurança/Vulnerabilidades/AEV.md",
@@ -174,16 +170,7 @@
     "Segurança/Vulnerabilidades/Stored XSS.md",
     "Segurança/Vulnerabilidades/CIA.md",
     "Segurança/Vulnerabilidades/ACID.md",
-    "Segurança/Vulnerabilidades/Cross Site Request Forgery.md",
-    "Novels.md",
-    "Segurança/Vulnerabilidades/Dom XSS.md",
-    "Untitled.md",
     "Segurança/Vulnerabilidades/Untitled.canvas",
-    "Segurança/Vulnerabilidades/CWE-CVE.md",
-    "Segurança/Vulnerabilidades/Scope.md",
-    "Segurança/Vulnerabilidades/Avaliação  (Assesment).md",
-    "Segurança/Vulnerabilidades/Penetration Test.md",
-    "Templates/Conceito.md",
     "Templates",
     "imagens/Pasted image 20231121142850.png",
     "Pasted image 20231102152403.png",
