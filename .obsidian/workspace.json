@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "ddb8cee81e869135",
+        "id": "124792a70d619e38",
         "type": "tabs",
         "children": [
           {
-            "id": "72b76215e159126d",
+            "id": "d869b8b2399b31e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md",
+                "file": "Segurança/Vulnerabilidades/ala.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d756f78969946897",
+            "id": "26219bf1db988864",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Segurança/Vulnerabilidades/Avaliação  (Assesment).md",
+                "file": "Novels.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +95,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md"
+                "file": "Novels.md"
               }
             }
           },
@@ -104,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md",
+                "file": "Novels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md",
+                "file": "Novels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md"
+                "file": "Novels.md"
               }
             }
           }
@@ -154,35 +155,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "72b76215e159126d",
+  "active": "26219bf1db988864",
   "lastOpenFiles": [
-    "Segurança/Vulnerabilidades/Avaliação  (Assesment).md",
-    "Segurança/Vulnerabilidades/Scope.md",
     "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md",
-    "Segurança/Vulnerabilidades/Auditoria.md",
-    "Segurança/Vulnerabilidades/Penetration Test.md",
+    "Segurança/Vulnerabilidades/ala.md",
     "Templates/Aula.md",
-    "Templates/Conceito.md",
+    "Segurança/Vulnerabilidades/Reflected XSS.md",
     "Segurança/Vulnerabilidades/AEV.md",
-    "Segurança/Vulnerabilidades/Vulnerabilidade.md",
+    "Segurança/Vulnerabilidades/Enumeração.md",
+    "Segurança/Vulnerabilidades/Níveis de acesso de uma rede.md",
+    "Segurança/Vulnerabilidades/XSS.md",
+    "Segurança/Vulnerabilidades/Auditoria.md",
     "Segurança/Vulnerabilidades/Vulnerabilidades.md",
+    "Segurança/Vulnerabilidades/Injeção SQL.md",
+    "Segurança/Vulnerabilidades/Injeção em OS.md",
+    "Segurança/Vulnerabilidades/Autenticação.md",
+    "Segurança/Vulnerabilidades/Vulnerabilidade.md",
+    "Segurança/Vulnerabilidades/Stored XSS.md",
     "Segurança/Vulnerabilidades/CIA.md",
-    "Untitled 1.md",
+    "Segurança/Vulnerabilidades/ACID.md",
+    "Segurança/Vulnerabilidades/Cross Site Request Forgery.md",
+    "Novels.md",
+    "Segurança/Vulnerabilidades/Dom XSS.md",
+    "Untitled.md",
+    "Segurança/Vulnerabilidades/Untitled.canvas",
     "Segurança/Vulnerabilidades/CWE-CVE.md",
-    "Segurança/Criptografia/Respostas teste Ca2021.md",
-    "Segurança/Criptografia/CA.md",
-    "Segurança/Criptografia/CA Modular.md",
-    "Segurança/AAS.md",
-    "Segurança/Modelação de Ameaças.md",
-    "Segurança/OWASP ZAP.md",
-    "Segurança/Software Rebusto.md",
-    "Teste ASFC.md",
-    "Segurança/Certificados.md",
-    "Siglas.md",
-    "Links.md",
+    "Segurança/Vulnerabilidades/Scope.md",
+    "Segurança/Vulnerabilidades/Avaliação  (Assesment).md",
+    "Segurança/Vulnerabilidades/Penetration Test.md",
+    "Templates/Conceito.md",
     "Templates",
-    "AWS/Comandos Terminal.md",
-    "AWS/AWS SAM.md",
     "imagens/Pasted image 20231121142850.png",
     "Pasted image 20231102152403.png",
     "AWS",

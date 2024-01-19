@@ -7,22 +7,13 @@ list from "Segurança/Vulnerabilidades" WHERE Cadeira = "AEV" and tags="#Aula" s
 `Processo de analizar evaliar e rever entidades`
 `Identificar e categorizar problemas e lidar com elesassertadamente `
 
-### Pen Test vs Assessment
-`Tentativa de perceber quais são as vulnerabilities de um certo sistema/empresa`
-
-**Pen Test** - é quando estás fora da organização e queres chegar la dentro e podem te dar apenas algumas coisas para te ajudar
-**Assessment** -  Estás dentro da organização logo temos  acesso a mais coisas, Código fonte etc.
-
 ### Tecnologias defensivas
 
 **Firewall**-Bloqueia conexões 
 **WAF** - Para não executar pedidos HTTP  com malware
 **IDS** - Monotoniza pedidos esquisitos 
 
-### Enumeração
-`Tentar receber informações sobre sistemas que eu não sei`
-####  Scope 
-`O que podemos atacar em um sistema`
+~´
 
 #### Limites dos assessments
 **Tempo**- temos um determinado tempo
