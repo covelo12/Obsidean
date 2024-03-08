@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e1da422ee8579dab",
+        "id": "46129a33133d36e1",
         "type": "tabs",
         "children": [
           {
-            "id": "af87cb2fc472d9ec",
+            "id": "bc53298485cc017c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Projeto AWS.md",
+                "file": "Segurança/IAA/RBAC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42801585e131443a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Segurança/sgr/Aula 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +95,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AWS/Projeto AWS.md"
+                "file": "Segurança/sgr/Aula 1.md"
               }
             }
           },
@@ -92,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Projeto AWS.md",
+                "file": "Segurança/sgr/Aula 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Projeto AWS.md",
+                "file": "Segurança/sgr/Aula 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Projeto AWS.md"
+                "file": "Segurança/sgr/Aula 1.md"
               }
             }
           }
@@ -142,43 +155,47 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af87cb2fc472d9ec",
+  "active": "42801585e131443a",
   "lastOpenFiles": [
-    "AWS/Conceitos Base.md",
-    "AWS/Comandos Terminal.md",
-    "AWS/AWS EC2.md",
-    "AWS/AWS CloudFormation.md",
-    "AWS/Projeto AWS.md",
-    "Novels.md",
-    "AWS/AWS SAM.md",
-    "AWS/AWS S3.md",
-    "Terminal/Comandos terminal.md",
-    "Redes/Protocolos/FTB.md",
-    "AWS/Untitled",
-    "README.md",
-    "Segurança/Software Rebusto.md",
-    "Segurança/Modelação de Ameaças.md",
-    "Segurança/Certificados.md",
-    "Segurança/AAS.md",
-    "Linguagens programação/Python.md",
-    "Linguagens programação/C++.md",
-    "Segurança/Criptografia/CA Modular.md",
-    "Segurança/Criptografia/Respostas teste Ca2021.md",
-    "Segurança/Criptografia/CA.md",
-    "WebDev/CORS.md",
-    "Segurança/Vulnerabilidades/ala.md",
+    "Segurança/sgr/SGR.md",
+    "Segurança/sgr/Aula 1.md",
+    "Segurança/IAA/IAA.md",
+    "Segurança/sgr",
+    "Segurança/IAA/Modelos de Controlo de acesso.md",
+    "Segurança/IAA/RBAC.md",
+    "Segurança/IAA/Principio do privilégio mínimo.md",
+    "Segurança/IAA/Modelo AAA.md",
+    "Segurança/IAA/Level of Assurance.md",
+    "Segurança/IAA/Controlos de acesso.md",
+    "Segurança/IAA/ABAC.md",
+    "Segurança/IAA/CBAC.md",
+    "Segurança/IAA/Bloat.md",
+    "Segurança/IAA/Matriz de acesso.md",
+    "Segurança/IAA/Access control com base na capacidade.md",
+    "Segurança/IAA/ACL.md",
+    "Segurança/IAA/Modelo IAA.md",
     "Segurança/Vulnerabilidades/Avaliação de vulnerabilidades em sistemas de rede.md",
+    "Segurança/Vulnerabilidades/CIA.md",
+    "Segurança/Vulnerabilidades/Avaliação  (Assesment).md",
+    "Segurança/Criptografia/CA Modular.md",
+    "Segurança/Criptografia/CA.md",
+    "Segurança/SRC/SRC.md",
     "Templates/Aula.md",
-    "Segurança/Vulnerabilidades/Reflected XSS.md",
-    "Segurança/Vulnerabilidades/AEV.md",
+    "Segurança/IAA",
+    "Segurança/Vulnerabilidades/XSS.md",
+    "Segurança/Vulnerabilidades/Vulnerabilidades.md",
+    "Segurança/Vulnerabilidades/Vulnerabilidade.md",
+    "Segurança/Vulnerabilidades",
+    "Segurança/SRC",
+    "Segurança/ER",
+    "Segurança/Criptografia",
+    "Segurança",
+    "AWS/Untitled",
     "Segurança/Vulnerabilidades/Untitled.canvas",
     "Templates",
     "imagens/Pasted image 20231121142850.png",
     "Pasted image 20231102152403.png",
     "AWS",
-    "Base de dados",
-    "Redes/Conceitos base",
-    "Redes/Protocolos",
     "imagens/Pasted image 20231018141605.png",
     "imagens/Pasted image 20231018122407.png",
     "imagens/Pasted image 20231006092436.png",
@@ -186,10 +203,6 @@
     "imagens/Pasted image 20230922154615.png",
     "imagens/Pasted image 20230922150935.png",
     "imagens/Pasted image 20230922141503.png",
-    "imagens/Pasted image 20230922141454.png",
-    "Terminal/nmap",
-    "Segurança/Vulnerabilidaades/Scans",
-    "Segurança/Vulnerabilidades",
-    "Terminal"
+    "imagens/Pasted image 20230922141454.png"
   ]
 }

@@ -1,0 +1,2 @@
+d-  [[Principio do privilégio mínimo]] alguem tem de ter  o poder de dar privilégios, isso não é o mm de ter todos os privilégios
+d - podes tmb ser adicionado ao grupo de pessoas que podem aceder ao deti , nesse caso qual a dif com as capacidades

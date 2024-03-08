@@ -1,0 +1,4 @@
+.markdown-preview-view.clean-embeds .markdown-embed-title,
+.markdown-preview-view.clean-embeds .obsidian-metatable {
+  display: none;
+}
